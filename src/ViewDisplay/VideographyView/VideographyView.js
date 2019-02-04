@@ -1,5 +1,6 @@
 import React from 'react';
 import Radium from 'radium';
+import SideNav from '../../SideNav/SideNav';
 
 const videoView = () => {
     const style = {
@@ -20,7 +21,10 @@ const videoView = () => {
 
     return (
         <div style={style.pageContainer}>
-            
+            <div>
+
+            </div>
+            <SideNav />
         </div>
     )
 }

@@ -59,7 +59,6 @@ const mainView = () => {
             fontSize: '2rem'
         }
 
-
     }
 
     return (
