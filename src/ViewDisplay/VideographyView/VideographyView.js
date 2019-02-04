@@ -9,11 +9,19 @@ const videoView = () => {
             width: 'calc(100vw - 75px)',
             height: '100vh',
             backgroundColor: 'orange'
-        }
+        },
+
+        pageContainer: {
+            display: 'flex',
+            flexDirection: 'row'
+        },
+        
     }
 
     return (
-        <h1 style={style.test}>View Route</h1>
+        <div style={style.pageContainer}>
+            
+        </div>
     )
 }
 

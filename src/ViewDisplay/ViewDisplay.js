@@ -1,20 +1,28 @@
 import React from 'react';
 import Radium from 'radium';
 import Route from 'react-router-dom/Route';
+import Redirect from 'react-router/Redirect';
+import MainView from './MainView/MainView';
 import VideoView from './VideographyView/VideographyView';
 import PhotoView from './PhotographyView/PhotographyView';
 import EditingView from './EditingView/EditingView';
 import ContactView from './ContactView/ContactView';
 
 const viewDisplay = () => {
+
+    const style = {
+        test: {
+            
+        }
+    }
     
     return (
-        // <h1>hdfkahsdhfsahfsahdfkkashdf</h1>
-        <div>
-            <Route path="/videography" render={() => <VideoView />} />
-            <Route path="/photography" render={() => <PhotoView />} />
-            <Route path="/editing" render={() => <EditingView />} />
-            <Route path="/contact" render={() => <ContactView />} />
+        <div style={style.test}>
+            <Route path="/" exact strict component={MainView} />
+            <Route path="/videography" exact strict component={VideoView} />
+            <Route path="/photography" exact strict component={PhotoView} />
+            <Route path="/editing" exact strict component={EditingView} />
+            <Route path="/contact" exact strict component={ContactView} />
         </div>
     )
 }
