@@ -18,8 +18,10 @@ const navbar = () => {
             alignItems: 'center',
             height: '100vh',
             width: '75px',
-            backgroundColor: '#3e2c75',
+            // backgroundColor: '#3e2c75',
+            backgroundColor: '#FFF',
             boxShadow: '2px 0px 2px 1px rgba(0, 0, 0, 0.2)',
+            minWidth: '75px'
         },
 
         iconDiv: {
@@ -53,7 +55,7 @@ const navbar = () => {
         endItem: {
             width: '100%',
             height: '100%',
-            backgroundColor: 'black',
+            backgroundColor: '#FFF',
         }
     }
 

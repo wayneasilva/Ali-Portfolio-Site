@@ -6,7 +6,9 @@ const sideNav = () => {
     const style = {
         divStyle: {
             height: '100vh',
-            width: '400px'
+            width: '225px',
+            marginRight: '10px',
+            // marginTop: '10px'
         },
 
         ulStyle: {
@@ -14,16 +16,19 @@ const sideNav = () => {
             padding: '0',
             display: 'flex',
             flexDirection: 'column',
-            // justifyContent: 'spa',
+            justifyContent: 'flex-start',
             height: '100%',
             width: '100%',
-            backgroundColor: '#141414'
+            backgroundColor: '#FFF',
+            // marginTop: '10px'
+            // backgroundColor: '#141414'
         },
 
         liStyle: {
-            borderBottom: '1px solid white',
+            // borderBottom: '1px solid white',
             width: '100%',
-            height: '5%',
+            height: '50px',
+            margin: '0 0 10px 0',
             backgroundColor: '#0c0c0c',
             color: 'white',
             display: 'flex',
@@ -39,6 +44,8 @@ const sideNav = () => {
                 <li style={style.liStyle}>Portfolio Item 1</li>
                 <li style={style.liStyle}>Portfolio Item 2</li>
                 <li style={style.liStyle}>Portfolio Item 3</li>
+                <li style={style.liStyle}>Portfolio Item 4</li>
+                <li style={style.liStyle}>Portfolio Item 5</li>
             </ul>
         </div>
     )

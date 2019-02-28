@@ -22,7 +22,7 @@ class App extends Component {
       <Router>
         <div style={style} className="App">
           <Navbar />
-          <ViewDisplay />
+          <ViewDisplay mViewHandler={this.portItemViewHandler} />
         </div>
       </Router>
     );

@@ -8,7 +8,7 @@ import PhotoView from './PhotographyView/PhotographyView';
 import EditingView from './EditingView/EditingView';
 import ContactView from './ContactView/ContactView';
 
-const viewDisplay = () => {
+const viewDisplay = (props) => {
 
     const style = {
         test: {

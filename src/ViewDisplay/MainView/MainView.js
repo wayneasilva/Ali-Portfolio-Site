@@ -12,7 +12,7 @@ const mainView = () => {
             padding: '0',
             width: 'calc(100vw - 75px)',
             height: '100vh',
-            backgroundColor: '#2d1577'
+            // backgroundColor: '#2d1577',
         },
 
         headerStyle: {
